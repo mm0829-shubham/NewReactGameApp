@@ -59,6 +59,8 @@ export default function App() {
   }
 
   return (
+<>
+<StatusBar style="light"/>
     <LinearGradient
       colors={[Colors.primary800, Colors.accent500]}
       style={styles.rootScreen}
@@ -72,6 +74,7 @@ export default function App() {
         <SafeAreaView style={styles.rootScreen}>{screen}</SafeAreaView>
       </ImageBackground>
     </LinearGradient>
+    </>
   );
 }
 
